@@ -11,7 +11,18 @@ public class TorTheGame {
         // game loop
         while (true) {
             int remainingTurns = in.nextInt(); // The remaining amount of turns Thor can move. Do not remove this line.
+            if (initialTy>lightY) {
+                System.out.println("N");}
 
+            else if(initialTy<lightY){
+                System.out.println("S");
+            }
+            if (initialTx>lightX){
+                System.out.println("W");
+            }
+            else if (initialTx<lightX){
+                System.out.println("E");
+            }
             // Write an action using System.out.println()
             // To debug: System.err.println("Debug messages...");
 
