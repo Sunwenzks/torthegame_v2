@@ -12,17 +12,17 @@ public class TorTheGame {
         while (true) {
             int remainingTurns = in.nextInt(); // The remaining amount of turns Thor can move. Do not remove this line.
             if (initialTy > lightY) {
-                System.out.print("N");
+                System.out.println("N");
                 initialTy--;
             } else if (initialTy < lightY) {
-                System.out.print("S");
+                System.out.println("S");
                 initialTy++;
             }
             if (initialTx > lightX) {
-                System.out.print("W");
+                System.out.println("W");
                 initialTx--;
             } else if (initialTx < lightX) {
-                System.out.print("E");
+                System.out.println("E");
                 initialTx++;
             }
             // Write an action using System.out.println()
@@ -30,7 +30,7 @@ public class TorTheGame {
 
 
             // A single line providing the move to be made: N NE E SE S SW W or NW
-            System.out.println("");
+            //System.out.println("");
         }
     }
 }
