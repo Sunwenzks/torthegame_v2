@@ -20,6 +20,7 @@ public class TorTheGame {
             {
                 if (initialTy > lightY)
                 {
+
                     //System.out.println("N");
                     direction = directions.N;
                     initialTy--;
